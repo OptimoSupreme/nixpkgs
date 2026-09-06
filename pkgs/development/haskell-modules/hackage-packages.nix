@@ -2128,9 +2128,7 @@ self: {
       ];
       description = "A simple music library that can generate Lilypond and MIDI files";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "Aoide";
-      broken = true;
     }
   ) { };
 
@@ -19629,7 +19627,6 @@ self: {
       ];
       description = "A flexible mock framework for testing effectful code";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -25405,8 +25402,6 @@ self: {
       ];
       description = "Infinitely deep trees for lazy stateless memoization";
       license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -26560,8 +26555,6 @@ self: {
       ];
       description = "Scale JuicyPixels images with DCT";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -49609,7 +49602,6 @@ self: {
       testToolDepends = [ tasty-discover ];
       description = "Nix flake repository for everyone";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "a-piece-of-flake";
     }
   ) { };
@@ -53944,8 +53936,6 @@ self: {
       ];
       description = "Safer TH addDependentFile wrapper";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -58315,7 +58305,6 @@ self: {
       ];
       description = "Actually Good Encryption";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -59873,8 +59862,6 @@ self: {
       ];
       description = "Alert messages for web applications";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -60364,7 +60351,6 @@ self: {
       ];
       description = "Companion library for the book Algebra-Driven Design by Sandy Maguire";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -60563,7 +60549,6 @@ self: {
       ];
       description = "Duoid instances for the algebraic-graphs package";
       license = "(AGPL-3.0-only WITH Universal-FOSS-exception-1.0 OR AGPL-3.0-only OR LicenseRef-commercial)";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -79910,8 +79895,6 @@ self: {
       ];
       description = "prelude for Algebra of Programming";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -80990,8 +80973,6 @@ self: {
       ];
       description = "DSL for generating API boilerplate and docs";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -88395,8 +88376,6 @@ self: {
       ];
       description = "Amateur astronomical computations";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -91321,7 +91300,6 @@ self: {
       doHaddock = false;
       description = "right-to-left parser backward compatible with attoparsec";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -101364,8 +101342,6 @@ self: {
       ];
       description = "Implements encoders/decoders for basesystems";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -103943,9 +103919,7 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "Implementation of the Bech32 cryptocurrency address format (BIP 0173)";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "bech32";
-      broken = true;
     }
   ) { };
 
@@ -103978,7 +103952,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "Template Haskell extensions to the Bech32 library";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -108159,8 +108132,6 @@ self: {
       librarySystemDepends = [ gpgme ];
       description = "Project bindings-* raw interface to gpgme";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { inherit (pkgs) gpgme; };
 
@@ -110048,8 +110019,6 @@ self: {
       testHaskellDepends = [ base ];
       description = "Birds of Paradise";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -115349,8 +115318,6 @@ self: {
       ];
       description = "The Bluefin effect system, user contributions";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -115462,8 +115429,6 @@ self: {
       ];
       description = "The Bluefin effect system, random generators";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -118155,8 +118120,6 @@ self: {
       ];
       description = "Arrays with a value for every index";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -127433,8 +127396,6 @@ self: {
       ];
       description = "QuickCheck for Cabal tests";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -134346,7 +134307,6 @@ self: {
       ];
       description = "Utils for constructing a command-line on top of cardano-addresses";
       license = lib.licenses.asl20;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "cardano-address";
     }
   ) { cardano-address = null; };
@@ -138805,8 +138765,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "Type directed application configuration parsing and accessors";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -138983,8 +138941,6 @@ self: {
       ];
       description = "A Future type that is interruptible anytime and exportable to C/C++";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -140931,7 +140887,6 @@ self: {
       ];
       description = "Some monad transformers and typeclasses for text in- and output abstraction";
       license = lib.licenses.agpl3Only;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -140980,8 +140935,6 @@ self: {
       ];
       description = "Some utilities any serious chatty-based application may need";
       license = lib.licenses.agpl3Only;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -170477,7 +170430,6 @@ self: {
       ];
       description = "Cassandra CQL binary protocol";
       license = lib.meta.getLicenseFromSpdxId "0BSD";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -175314,7 +175266,6 @@ self: {
       doHaddock = false;
       description = "Cryptol: The Language of Cryptography";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -175825,9 +175776,7 @@ self: {
       ];
       description = "Utility for X509 certificate and chain";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "crypton-x509-util";
-      broken = true;
     }
   ) { };
 
@@ -176744,7 +176693,6 @@ self: {
       testToolDepends = [ tasty-discover ];
       description = "generates Haskell bindings for CSS classes";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -177952,9 +177900,7 @@ self: {
       ];
       description = "CDDL Generator and test utilities";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "cuddle";
-      broken = true;
     }
   ) { };
 
@@ -186429,7 +186375,6 @@ self: {
       ];
       description = "A fast, safe, and intuitive DataFrame library";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -186488,7 +186433,6 @@ self: {
       ];
       description = "Arrow C Data Interface bridge and plan IR for the dataframe ecosystem";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -186657,8 +186601,6 @@ self: {
       ];
       description = "SIMD-accelerated CSV reader for the dataframe library";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -186729,7 +186671,6 @@ self: {
           ];
           description = "Apache DataFusion backend for the dataframe typed API";
           license = lib.meta.getLicenseFromSpdxId "MIT";
-          hydraPlatforms = lib.platforms.none;
         }
       )
       {
@@ -186810,7 +186751,6 @@ self: {
       testHaskellDepends = [ base ];
       description = "Read Parquet datasets from HuggingFace into dataframes";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -186893,7 +186833,6 @@ self: {
       ];
       description = "Lazy query engine for the dataframe ecosystem";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -187034,7 +186973,6 @@ self: {
       ];
       description = "Parquet reader and writer for the dataframe ecosystem";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -187072,7 +187010,6 @@ self: {
       ];
       description = "Parquet-file-based Template Haskell splices for the dataframe ecosystem";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -189156,7 +189093,6 @@ self: {
       ];
       description = "Disciplined Disciple Compiler core language and type checker";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -189180,7 +189116,6 @@ self: {
       ];
       description = "Disciplined Disciple Compiler PHP code generator";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -189288,7 +189223,6 @@ self: {
       ];
       description = "Disciplined Disciple Compiler LLVM code generator";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -189320,7 +189254,6 @@ self: {
       ];
       description = "Disciplined Disciple Compiler C code generator";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -189350,7 +189283,6 @@ self: {
       ];
       description = "Disciplined Disciple Compiler code transformations";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -189388,7 +189320,6 @@ self: {
       ];
       description = "Disciplined Disciple Compiler intermediate language";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -189500,7 +189431,6 @@ self: {
       ];
       description = "Disciplined Disciple Compiler source language";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -189837,8 +189767,6 @@ self: {
           doHaddock = false;
           description = "Haskell bindings for Dear ImGui";
           license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-          hydraPlatforms = lib.platforms.none;
-          broken = true;
         }
       )
       {
@@ -190609,7 +190537,6 @@ self: {
       ];
       description = "Combinators for manipulating dependently-typed predicates";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -191674,7 +191601,6 @@ self: {
       ];
       description = "Defunctionalization helpers";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -191694,8 +191620,6 @@ self: {
       ];
       description = "Defunctionalization helpers: booleans";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -193880,8 +193804,6 @@ self: {
       ];
       description = "Derive type class instances";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -196434,7 +196356,6 @@ self: {
       ];
       description = "Encrypt Decrypt Dhall expressions";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "dhall-secret";
     }
   ) { };
@@ -197357,8 +197278,6 @@ self: {
         containers
       ];
       license = "(Apache-2.0 OR MIT)";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -197385,7 +197304,6 @@ self: {
         text
       ];
       license = "(Apache-2.0 OR MIT)";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -197412,7 +197330,6 @@ self: {
         text
       ];
       license = "(Apache-2.0 OR MIT)";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -203641,9 +203558,7 @@ self: {
       ];
       description = "Peer-to-peer node discovery for Cloud Haskell";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "jollycloud";
-      broken = true;
     }
   ) { };
 
@@ -212003,7 +211918,6 @@ self: {
       ];
       description = "Extending the tranformers package with duoids";
       license = "(AGPL-3.0-only WITH Universal-FOSS-exception-1.0 OR AGPL-3.0-only OR LicenseRef-commercial)";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -212031,8 +211945,6 @@ self: {
       ];
       description = "Unifying parallel and sequential operations";
       license = "(AGPL-3.0-only WITH Universal-FOSS-exception-1.0 OR AGPL-3.0-only OR LicenseRef-commercial) AND BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -212067,7 +211979,6 @@ self: {
       ];
       description = "Unifying parallel and sequential operations";
       license = "(AGPL-3.0-only WITH Universal-FOSS-exception-1.0 OR AGPL-3.0-only OR LicenseRef-commercial)";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -214956,8 +214867,6 @@ self: {
       ];
       description = "Elliptic Curve Cryptography for Haskell";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -214979,8 +214888,6 @@ self: {
       ];
       description = "provides \"ed25519\" API using \"eccrypto\"";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -218811,7 +218718,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "Dependently typed elimination functions using singletons";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -223894,8 +223800,6 @@ self: {
       ];
       description = "Command line utilities for working with epub files";
       license = lib.meta.getLicenseFromSpdxId "ISC";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -225352,8 +225256,6 @@ self: {
       ];
       description = "Easily build and run haskell code to solve AoC problems";
       license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -231088,7 +230990,6 @@ self: {
       ];
       description = "@exinst@ support for @aeson@ package";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -231132,7 +231033,6 @@ self: {
       ];
       description = "@exinst@ support for @base@ package";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -231179,7 +231079,6 @@ self: {
       ];
       description = "@exinst@ support for @bytes@ package";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -231222,7 +231121,6 @@ self: {
       ];
       description = "@exinst@ support for @cereal@ package";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -231315,7 +231213,6 @@ self: {
       ];
       description = "Dependent pairs and their instances";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -231649,8 +231546,6 @@ self: {
       libraryHaskellDepends = [ base ];
       description = "floating point with extended exponent range";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -232046,8 +231941,6 @@ self: {
       ];
       description = "Predicates that can explain themselves";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -233566,8 +233459,6 @@ self: {
       ];
       description = "API Client for ExtraLife team and user data";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -234945,7 +234836,6 @@ self: {
       ];
       description = "Fast implementation of the Bech32 encoding format";
       license = lib.licenses.mpl20;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -235698,8 +235588,6 @@ self: {
       ];
       description = "Memoize functions on Generic types";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -237273,9 +237161,7 @@ self: {
       executablePkgconfigDepends = [ ncurses ];
       description = "A terminal broughlike game about manipulating vision";
       license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "fearOfView";
-      broken = true;
     }
   ) { inherit (pkgs) ncurses; };
 
@@ -238117,7 +238003,6 @@ self: {
       ];
       description = "CI service around gipeda";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "feed-gipeda";
     }
   ) { };
@@ -243099,8 +242984,6 @@ self: {
       ];
       description = "QuickCheck instances for fixed-vector";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -243124,8 +243007,6 @@ self: {
       ];
       description = "Aeson instances for fixed-vector";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -243147,8 +243028,6 @@ self: {
       ];
       description = "Binary instances for fixed-vector";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -243172,8 +243051,6 @@ self: {
       ];
       description = "Binary instances for fixed-vector";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -243195,8 +243072,6 @@ self: {
       ];
       description = "Cereal instances for fixed-vector";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -245109,8 +244984,6 @@ self: {
       ];
       description = "FFI bindings for C _Float128";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -246729,7 +246602,6 @@ self: {
         vector
       ];
       license = "(Apache-2.0 OR MIT)";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -247801,7 +247673,6 @@ self: {
       ];
       description = "Determine fonts used to render text";
       license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "fontwhich";
     }
   ) { };
@@ -255693,7 +255564,6 @@ self: {
       ];
       description = "General functor products for various Foldable instances";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -256948,9 +256818,7 @@ self: {
       ];
       description = "Generate Haskell wrappers for Futhark libraries";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "futhask";
-      broken = true;
     }
   ) { };
 
@@ -257773,8 +257641,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "Modular effectful computations with explicit environments and errors";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -263513,8 +263379,6 @@ self: {
       ];
       description = "Standard spec's for Hashable instances";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -264880,8 +264744,6 @@ self: {
       description = "Vectors and matrix manipulation";
       license = lib.licenses.bsd3;
       platforms = lib.platforms.x86;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -264916,7 +264778,6 @@ self: {
       description = "Geometry and matrix manipulation";
       license = lib.licenses.bsd3;
       platforms = lib.platforms.x86;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -296943,7 +296804,6 @@ self: {
       ];
       description = "QUIC";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "h3spec";
     }
   ) { };
@@ -298348,8 +298208,6 @@ self: {
       ];
       description = "A Haskell library for Active Automata Learning";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -298371,7 +298229,6 @@ self: {
       ];
       description = "Pre-built Mealy automaton models for haal";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -303158,8 +303015,6 @@ self: {
       ];
       description = "A Hakyll plugin for rendering diagrams figures from embedded Haskell code";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -304953,7 +304808,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "A general-purpose statistical analysis, optimization and visualization toolkit";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305042,7 +304896,6 @@ self: {
       ];
       description = "hanalyze command-line interface for the hanalyze toolkit";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "hanalyze";
     }
   ) { };
@@ -305120,7 +304973,6 @@ self: {
       ];
       description = "Design-of-experiments layer of hanalyze (DoE / MSA)";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305172,7 +305024,6 @@ self: {
       ];
       description = "Data I/O layer of hanalyze: loaders, cleaning, tidy wrangling";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305218,7 +305069,6 @@ self: {
       ];
       description = "Model layer of hanalyze: regression, ML, survival, causal";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305330,7 +305180,6 @@ self: {
       ];
       description = "Static-plot integration for hanalyze (toPlot / Plottable)";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305382,7 +305231,6 @@ self: {
       ];
       description = "Vega-Lite visualization and HTML report layer of hanalyze";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -309645,8 +309493,6 @@ self: {
       ];
       description = "Merkle Hash Tree";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -311711,7 +311557,6 @@ self: {
       ];
       description = "Redis broker implementation for haskell-bee";
       license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -311778,7 +311623,6 @@ self: {
       ];
       description = "STM broker implementation for haskell-bee";
       license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -314949,7 +314793,6 @@ self: {
       ];
       description = "Haskell interface for Tembo's PGMQ PostgreSQL extension";
       license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -316028,8 +315871,6 @@ self: {
       ];
       description = "Generate Elm types and JSON encoders and decoders from Haskell types";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -320632,8 +320473,6 @@ self: {
       ];
       description = "Functions to partially satisfy tensor signatures";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -320656,8 +320495,6 @@ self: {
       doHaddock = false;
       description = "Signatures for support tensors in hasktorch";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -322016,8 +321853,6 @@ self: {
       ];
       description = "An abstraction for simultaneous fetching from multiple PostgreSQL cursors";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -322170,8 +322005,6 @@ self: {
       testHaskellDepends = [ base ];
       description = "Effectful bindings for hasql";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -329459,8 +329292,6 @@ self: {
       testToolDepends = [ tasty-discover ];
       description = "Supplemental library for hedgehog";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -336741,7 +336572,6 @@ self: {
       ];
       description = "Bridge from hanalyze (Hanalyze.Model.HBM.ModelGraph) to hgg DAG rendering";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -352736,7 +352566,6 @@ self: {
       doHaddock = false;
       description = "Higher Order Reverse Derivatives Efficiently - Automatic Differentiation";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -355507,8 +355336,6 @@ self: {
       ];
       description = "Adaptation of the hpqtypes library for the effectful ecosystem";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -365581,8 +365408,6 @@ self: {
       ];
       description = "A type annotation generator for HSLua";
       license = "(MIT OR Apache-2.0)";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -368431,8 +368256,6 @@ self: {
       ];
       description = "Integration between Hspec and quickcheck-classes";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -376596,7 +376419,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "HTTP/3 library";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -380660,8 +380482,6 @@ self: {
       ];
       description = "Streamly bindings for hw-kafka-client";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -384795,8 +384615,6 @@ self: {
       ];
       description = "Hyperfunctions";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -387153,8 +386971,6 @@ self: {
       doHaddock = false;
       description = "Strict IDNA2008 for Haskell";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -387188,7 +387004,6 @@ self: {
       ];
       description = "IDNA-aware DNS-name lint and reporter";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "idnaparse";
     }
   ) { };
@@ -388148,7 +387963,6 @@ self: {
         text
       ];
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "ihaskell-dataframe-exe";
     }
   ) { };
@@ -392628,8 +392442,6 @@ self: {
       libraryHaskellDepends = [ base ];
       description = "Simple parser combinators for lexical analysis";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -400256,7 +400068,6 @@ self: {
       ];
       description = "The InterPlanetary Linked Data Model and codec formats";
       license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -412590,8 +412401,6 @@ self: {
       ];
       description = "Effectful effects for hw-kafka-client";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -418107,7 +417916,6 @@ self: {
       ];
       description = "Managing stores of secret things";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -418645,7 +418453,6 @@ self: {
       ];
       description = "Type-level integers. Like KnownNat, but for integers.";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -418675,7 +418482,6 @@ self: {
       ];
       description = "Type-level rationals. Like KnownNat, but for rationals.";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -419610,8 +419416,6 @@ self: {
       ];
       description = "Kleene algebra";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -428350,8 +428154,6 @@ self: {
       ];
       description = "Scalable anonymous records";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -430456,7 +430258,6 @@ self: {
       testToolDepends = [ tasty-discover ];
       description = "Alternative lazy ByteString and ST-like IO Handle";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -430604,8 +430405,6 @@ self: {
       ];
       description = "Lazy Probabilistic Programming Library";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -431619,8 +431418,6 @@ self: {
       ];
       description = "LEB128 encoding logic for and in Haskell";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -437405,9 +437202,7 @@ self: {
           description = "Bindings to libzfs, for dealing with the Z File System and Zpools";
           license = lib.licenses.mit;
           badPlatforms = lib.platforms.darwin;
-          hydraPlatforms = lib.platforms.none;
           mainProgram = "example";
-          broken = true;
         }
       )
       {
@@ -442855,7 +442650,6 @@ self: {
       ];
       description = "Witnesses for working with type-level lists";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -444516,8 +444310,6 @@ self: {
       ];
       description = "Tools for maintaining the llvm-ffi package";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -448408,8 +448200,6 @@ self: {
       ];
       description = "FFI bindings for C long double";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -454113,8 +453903,6 @@ self: {
       ];
       description = "magma is an algebraic structure";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -458235,7 +458023,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "Compatibility of 'massiv' with 'persist'";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -465529,7 +465316,6 @@ self: {
       ];
       description = "Implements multiformats specification";
       license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -470439,7 +470225,6 @@ self: {
       testToolDepends = [ tasty-discover ];
       description = "wrapper over miso checking CSS classes applicability through dependent types";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -474613,8 +474398,6 @@ self: {
       ];
       description = "A flexible logging system utilizing the `monad-effect` effect system";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -476970,8 +476753,6 @@ self: {
       testHaskellDepends = [ base ];
       description = "Recursion Schemes for Monadic version";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -478485,7 +478266,6 @@ self: {
       ];
       description = "Monoidal map type";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -478534,7 +478314,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "JSON support for monoidmap";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -478568,7 +478347,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "Examples for monoidmap";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -478592,7 +478370,6 @@ self: {
       ];
       description = "Hashing support for monoidmap";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -478655,7 +478432,6 @@ self: {
       ];
       description = "Internal support for monoidmap";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -478681,7 +478457,6 @@ self: {
       ];
       description = "QuickCheck support for monoidmap";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -490708,7 +490483,6 @@ self: {
       ];
       description = "Homogeneous tuples of arbitrary length";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -497780,7 +497554,6 @@ self: {
       ];
       description = "Networking layer for Cloud Haskell based on QUIC";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -513737,8 +513510,6 @@ self: {
       ];
       description = "OpenCC bindings";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { inherit (pkgs) opencc; };
 
@@ -517503,7 +517274,6 @@ self: {
       ];
       description = "Types and functions for Kepler orbits";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -520305,8 +520075,6 @@ self: {
       doHaddock = false;
       description = "An efficient CPU-based multidimensional array (tensor) library";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -527296,7 +527064,6 @@ self: {
       ];
       description = "Streaming Parquet reader";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -534483,8 +534250,6 @@ self: {
       ];
       description = "Minimal serialization library with focus on performance";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -538371,8 +538136,6 @@ self: {
       ];
       description = "Core types for pgmq-hs, a Haskell client for PGMQ";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -539035,7 +538798,6 @@ self: {
       ];
       description = "FAT filesystem sort utility";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -541889,8 +541651,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "An alternative implementation of Thrift for Haskell";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -547735,7 +547495,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-application-service";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -547804,8 +547563,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-domain-model";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -547878,7 +547635,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-domain-service";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -547950,7 +547706,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-agent-process";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548030,7 +547785,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-agent-serial";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548109,7 +547863,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-agent-server";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548182,7 +547935,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-agent-socket";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548251,7 +548003,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-cmdrun";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548325,7 +548076,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-filesystem";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548395,7 +548145,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-procspawn";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548469,7 +548218,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-serial";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548541,7 +548289,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-socket";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548614,7 +548361,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infra-watch";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548688,7 +548434,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-infrastructure";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548749,7 +548494,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-ui-notification";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548810,7 +548554,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-ui-request";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -548871,7 +548614,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "pms-ui-response";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -570792,7 +570534,6 @@ self: {
       ];
       description = "pty-mcp-server";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "pty-mcp-server";
     }
   ) { };
@@ -576746,8 +576487,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "QUIC";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -576799,7 +576538,6 @@ self: {
       ];
       description = "Quick-start wrappers for QUIC";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -576970,7 +576708,6 @@ self: {
       doHaddock = false;
       description = "Run external processes verified at compilation/installation";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -577457,7 +577194,6 @@ self: {
       doHaddock = false;
       description = "Testing group class instances with QuickCheck";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -577761,7 +577497,6 @@ self: {
       doHaddock = false;
       description = "Testing monoid subclass instances with QuickCheck";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -577902,7 +577637,6 @@ self: {
       doHaddock = false;
       description = "Quasi-unique identifiers for QuickCheck";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -578710,8 +578444,6 @@ self: {
       ];
       description = "Equational laws for free!";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -581928,8 +581660,6 @@ self: {
       ];
       description = "Pseudo-random number generation";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -583919,8 +583649,6 @@ self: {
       ];
       description = "A writer-biased RAW lock";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -588609,8 +588337,6 @@ self: {
       ];
       description = "Typed, schema-based, composable Redis library";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -601132,9 +600858,7 @@ self: {
       ];
       description = "Bugzilla query tool";
       license = lib.licenses.gpl2Only;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "rhbzquery";
-      broken = true;
     }
   ) { };
 
@@ -603825,8 +603549,6 @@ self: {
       ];
       description = "What4 adapter for the RME solver";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -606265,7 +605987,6 @@ self: {
           ];
           description = "Correctly-rounded arbitrary-precision floating-point arithmetic";
           license = lib.licenses.bsd3;
-          hydraPlatforms = lib.platforms.none;
         }
       )
       {
@@ -629249,7 +628970,6 @@ self: {
         text
       ];
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "example";
     }
   ) { };
@@ -634261,8 +633981,6 @@ self: {
       ];
       description = "Rules for binary distributions";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -639941,7 +639659,6 @@ self: {
       ];
       description = "A Haskell clone of OpenBSD signify";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "signify-hs";
     }
   ) { };
@@ -643434,7 +643151,6 @@ self: {
       ];
       description = "Unary natural numbers relying on the singletons infrastructure";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -643525,7 +643241,6 @@ self: {
       testToolDepends = [ singletons-base-code-generator ];
       description = "A promoted and singled version of the base library";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -643612,9 +643327,7 @@ self: {
       ];
       description = "Code generator for the singletons-base test suite";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "singletons-base-code-generator";
-      broken = true;
     }
   ) { };
 
@@ -643638,7 +643351,6 @@ self: {
       ];
       description = "An optional type with type level default";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -645127,8 +644839,6 @@ self: {
       ];
       description = "A very quick-and-dirty WebSocket server";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -654743,8 +654453,6 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "Apply sound changes to words";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -661681,8 +661389,6 @@ self: {
       ];
       description = "Purely functional stable heaps (fair priority queues)";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -661729,8 +661435,6 @@ self: {
       ];
       description = "algorithms around stable marriage";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -667833,8 +667537,6 @@ self: {
       ];
       description = "Ring buffer implementation in STM";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669195,8 +668897,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AccessAnalyzer";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669218,8 +668918,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ACMPCA";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669241,8 +668939,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AIOps";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669264,8 +668960,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AmazonMQ";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669287,8 +668981,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Amplify";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669310,8 +669002,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AmplifyUIBuilder";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669333,8 +669023,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ApiGateway";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669356,8 +669044,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ApiGatewayV2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669379,8 +669065,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AppConfig";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669402,8 +669086,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AppFlow";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669425,8 +669107,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AppIntegrations";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669448,8 +669128,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ApplicationAutoScaling";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669471,8 +669149,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ApplicationInsights";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669494,8 +669170,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ApplicationSignals";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669517,8 +669191,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AppMesh";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669540,8 +669212,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AppRunner";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669563,8 +669233,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AppStream";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669586,8 +669254,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AppSync";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669609,8 +669275,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AppTest";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669632,8 +669296,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS APS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669655,8 +669317,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ARCRegionSwitch";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669678,8 +669338,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ARCZonalShift";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669701,8 +669359,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ASK";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669724,8 +669380,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Athena";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669747,8 +669401,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AuditManager";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669770,8 +669422,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AutoScaling";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669793,8 +669443,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS AutoScalingPlans";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669816,8 +669464,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS B2BI";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669839,8 +669485,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Backup";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669862,8 +669506,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS BackupGateway";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669885,8 +669527,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Batch";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669908,8 +669548,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS BCMDataExports";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669931,8 +669569,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Bedrock";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669954,8 +669590,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS BedrockAgentCore";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -669977,8 +669611,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Billing";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670000,8 +669632,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS BillingConductor";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670023,8 +669653,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Budgets";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670046,8 +669674,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Cassandra";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670069,8 +669695,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CE";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670092,8 +669716,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CertificateManager";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670115,8 +669737,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Chatbot";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670138,8 +669758,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CleanRooms";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670161,8 +669779,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CleanRoomsML";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670184,8 +669800,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Cloud9";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670207,8 +669821,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CloudFormation";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670230,8 +669842,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CloudFront";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670253,8 +669863,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CloudTrail";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670276,8 +669884,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CloudWatch";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670299,8 +669905,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeArtifact";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670322,8 +669926,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeBuild";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670345,8 +669947,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeCommit";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670368,8 +669968,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeConnections";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670391,8 +669989,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeDeploy";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670414,8 +670010,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeGuruProfiler";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670437,8 +670031,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeGuruReviewer";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670460,8 +670052,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodePipeline";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670483,8 +670073,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeStar";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670506,8 +670094,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeStarConnections";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670529,8 +670115,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CodeStarNotifications";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670552,8 +670136,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Cognito";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670575,8 +670157,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Comprehend";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670598,8 +670178,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Config";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670621,8 +670199,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Connect";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670644,8 +670220,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ConnectCampaigns";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670667,8 +670241,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ConnectCampaignsV2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670690,8 +670262,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ControlTower";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670713,8 +670283,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CUR";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670736,8 +670304,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS CustomerProfiles";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670759,8 +670325,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DataBrew";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670782,8 +670346,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DataPipeline";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670805,8 +670367,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DataSync";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670828,8 +670388,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DataZone";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670851,8 +670409,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DAX";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670874,8 +670430,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Deadline";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670897,8 +670451,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Detective";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670920,8 +670472,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DevOpsGuru";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670943,8 +670493,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DirectoryService";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670966,8 +670514,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DLM";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -670989,8 +670535,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DMS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671012,8 +670556,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DocDB";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671035,8 +670577,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DocDBElastic";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671058,8 +670598,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DSQL";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671081,8 +670619,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS DynamoDB";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671104,8 +670640,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EC2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671127,8 +670661,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ECR";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671150,8 +670682,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ECS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671173,8 +670703,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EFS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671196,8 +670724,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EKS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671219,8 +670745,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ElastiCache";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671242,8 +670766,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ElasticBeanstalk";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671265,8 +670787,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ElasticLoadBalancing";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671288,8 +670808,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ElasticLoadBalancingV2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671311,8 +670829,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Elasticsearch";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671334,8 +670850,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EMR";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671357,8 +670871,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EMRContainers";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671380,8 +670892,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EMRServerless";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671403,8 +670913,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EntityResolution";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671426,8 +670934,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Events";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671449,8 +670955,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EventSchemas";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671472,8 +670976,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Evidently";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671495,8 +670997,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS EVS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671518,8 +671018,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS FinSpace";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671541,8 +671039,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS FIS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671564,8 +671060,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS FMS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671587,8 +671081,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Forecast";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671610,8 +671102,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS FraudDetector";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671633,8 +671123,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS FSx";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671656,8 +671144,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS GameLift";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671679,8 +671165,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS GlobalAccelerator";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671702,8 +671186,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Glue";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671725,8 +671207,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Grafana";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671748,8 +671228,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Greengrass";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671771,8 +671249,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS GreengrassV2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671794,8 +671270,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS GroundStation";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671817,8 +671291,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS GuardDuty";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671840,8 +671312,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS HealthImaging";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671863,8 +671333,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS HealthLake";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671886,8 +671354,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IAM";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671909,8 +671375,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IdentityStore";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671932,8 +671396,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ImageBuilder";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671955,8 +671417,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Inspector";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -671978,8 +671438,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS InspectorV2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672001,8 +671459,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS InternetMonitor";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672024,8 +671480,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Invoicing";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672047,8 +671501,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoT";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672070,8 +671522,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTAnalytics";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672093,8 +671543,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTCoreDeviceAdvisor";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672116,8 +671564,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTEvents";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672139,8 +671585,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTFleetHub";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672162,8 +671606,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTFleetWise";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672185,8 +671627,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTSiteWise";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672208,8 +671648,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTThingsGraph";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672231,8 +671669,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTTwinMaker";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672254,8 +671690,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IoTWireless";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672277,8 +671711,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IVS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672300,8 +671732,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS IVSChat";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672323,8 +671753,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS KafkaConnect";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672346,8 +671774,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Kendra";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672369,8 +671795,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS KendraRanking";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672392,8 +671816,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Kinesis";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672415,8 +671837,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS KinesisAnalytics";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672438,8 +671858,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS KinesisAnalyticsV2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672461,8 +671879,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS KinesisFirehose";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672484,8 +671900,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS KinesisVideo";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672507,8 +671921,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS KMS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672530,8 +671942,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS LakeFormation";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672553,8 +671963,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Lambda";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672576,8 +671984,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS LaunchWizard";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672599,8 +672005,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Lex";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672622,8 +672026,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS LicenseManager";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672645,8 +672047,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Lightsail";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672668,8 +672068,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Location";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672691,8 +672089,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Logs";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672714,8 +672110,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS LookoutEquipment";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672737,8 +672131,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS LookoutMetrics";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672760,8 +672152,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS LookoutVision";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672783,8 +672173,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS M2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672806,8 +672194,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Macie";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672829,8 +672215,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ManagedBlockchain";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672852,8 +672236,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MediaConnect";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672875,8 +672257,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MediaConvert";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672898,8 +672278,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MediaLive";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672921,8 +672299,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MediaPackage";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672944,8 +672320,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MediaPackageV2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672967,8 +672341,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MediaStore";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -672990,8 +672362,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MediaTailor";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673013,8 +672383,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MemoryDB";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673036,8 +672404,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MPA";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673059,8 +672425,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MSK";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673082,8 +672446,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS MWAA";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673105,8 +672467,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Neptune";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673128,8 +672488,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS NeptuneGraph";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673151,8 +672509,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS NetworkFirewall";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673174,8 +672530,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS NetworkManager";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673197,8 +672551,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Notifications";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673220,8 +672572,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS NotificationsContacts";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673243,8 +672593,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Oam";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673266,8 +672614,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ObservabilityAdmin";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673289,8 +672635,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ODB";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673312,8 +672656,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Omics";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673335,8 +672677,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS OpenSearchServerless";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673358,8 +672698,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS OpenSearchService";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673381,8 +672719,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS OpsWorks";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673404,8 +672740,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Organizations";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673427,8 +672761,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS OSIS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673450,8 +672782,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Panorama";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673473,8 +672803,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS PaymentCryptography";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673496,8 +672824,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS PCAConnectorAD";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673519,8 +672845,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS PCAConnectorSCEP";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673542,8 +672866,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS PCS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673565,8 +672887,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Personalize";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673588,8 +672908,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Pinpoint";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673611,8 +672929,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS PinpointEmail";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673634,8 +672950,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Pipes";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673657,8 +672971,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Proton";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673680,8 +672992,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS QBusiness";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673703,8 +673013,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS QLDB";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673726,8 +673034,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS QuickSight";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673749,8 +673055,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS RAM";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673772,8 +673076,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Rbin";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673795,8 +673097,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS RDS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673818,8 +673118,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Redshift";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673841,8 +673139,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS RedshiftServerless";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673864,8 +673160,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS RefactorSpaces";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673887,8 +673181,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Rekognition";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673910,8 +673202,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ResilienceHub";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673933,8 +673223,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ResourceExplorer2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673956,8 +673244,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ResourceGroups";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -673979,8 +673265,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS RoboMaker";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674002,8 +673286,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS RolesAnywhere";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674025,8 +673307,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Route53";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674048,8 +673328,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Route53Profiles";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674071,8 +673349,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Route53RecoveryControl";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674094,8 +673370,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Route53RecoveryReadiness";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674117,8 +673391,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Route53Resolver";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674140,8 +673412,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS RTBFabric";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674163,8 +673433,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS RUM";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674186,8 +673454,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS S3";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674209,8 +673475,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS S3Express";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674232,8 +673496,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS S3ObjectLambda";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674255,8 +673517,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS S3Outposts";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674278,8 +673538,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS S3Tables";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674301,8 +673559,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SageMaker";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674324,8 +673580,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Scheduler";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674347,8 +673601,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SDB";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674370,8 +673622,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SecretsManager";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674393,8 +673643,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SecurityHub";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674416,8 +673664,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SecurityLake";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674439,8 +673685,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ServiceCatalog";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674462,8 +673706,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ServiceCatalogAppRegistry";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674485,8 +673727,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS ServiceDiscovery";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674508,8 +673748,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SES";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674531,8 +673769,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Shield";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674554,8 +673790,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Signer";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674577,8 +673811,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SimSpaceWeaver";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674600,8 +673832,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SMSVOICE";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674623,8 +673853,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SNS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674646,8 +673874,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SQS";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674669,8 +673895,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SSM";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674692,8 +673916,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SSMContacts";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674715,8 +673937,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SSMGuiConnect";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674738,8 +673958,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SSMIncidents";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674761,8 +673979,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SSMQuickSetup";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674784,8 +674000,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SSO";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674807,8 +674021,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS StepFunctions";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674830,8 +674042,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SupportApp";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674853,8 +674063,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Synthetics";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674876,8 +674084,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS SystemsManagerSAP";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674899,8 +674105,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Timestream";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674922,8 +674126,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Transfer";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674945,8 +674147,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS VerifiedPermissions";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674968,8 +674168,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS VoiceID";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -674991,8 +674189,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS VpcLattice";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675014,8 +674210,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS WAF";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675037,8 +674231,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS WAFRegional";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675060,8 +674252,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS WAFv2";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675083,8 +674273,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS Wisdom";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675106,8 +674294,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS WorkSpaces";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675129,8 +674315,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS WorkspacesInstances";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675152,8 +674336,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS WorkSpacesThinClient";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675175,8 +674357,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS WorkSpacesWeb";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675198,8 +674378,6 @@ self: {
       ];
       description = "Stratosphere integration for AWS XRay";
       license = lib.licenses.mit;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -675803,8 +674981,6 @@ self: {
       ];
       description = "Measures and compares the performance of streaming libraries";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -677144,8 +676320,6 @@ self: {
       ];
       description = "Examples for Streamly";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -677171,8 +676345,6 @@ self: {
       ];
       description = "Streamly compatibility with filepath package";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -677211,8 +676383,6 @@ self: {
       ];
       description = "File system event notification streams";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -677451,8 +676621,6 @@ self: {
       ];
       description = "Write shell-like command pipelines in Haskell";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -677511,8 +676679,6 @@ self: {
       ];
       description = "Statistical measures for finite or infinite data streams";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -677547,8 +676713,6 @@ self: {
       ];
       description = "Efficient conversion between Streamly Arrays and Text";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -697788,8 +696952,6 @@ self: {
           ];
           description = "Test execution of external processes with Tasty";
           license = lib.licenses.gpl2Only;
-          hydraPlatforms = lib.platforms.none;
-          broken = true;
         }
       )
       {
@@ -705365,8 +704527,6 @@ self: {
       ];
       description = "Orphan instances of \"lawful-conversions\" for \"text-builder\"";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -709389,8 +708549,6 @@ self: {
       ];
       description = "Minimalistic actor library";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -719948,7 +719106,6 @@ self: {
       testToolDepends = [ tasty-discover ];
       description = "Smart version of Debug.Trace module";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -725369,7 +724526,6 @@ self: {
       ];
       description = "Small Brick-based terminal launcher";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "tui-launcher";
     }
   ) { };
@@ -725436,9 +724592,7 @@ self: {
       ];
       description = "Playwright-like black-box testing for terminal UIs over PTY";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "tuispec";
-      broken = true;
     }
   ) { };
 
@@ -726480,8 +725634,6 @@ self: {
       ];
       description = "An equational theorem prover";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -728444,8 +727596,6 @@ self: {
       libraryHaskellDepends = [ base ];
       description = "A library for folding types to a value";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -730052,7 +729202,6 @@ self: {
       ];
       description = "A framework for strongly typed FSM";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -730239,8 +729388,6 @@ self: {
       doHaddock = false;
       description = "A framework for strongly typed protocols";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -730804,8 +729951,6 @@ self: {
       ];
       description = "Plugin to faciliate type-level let";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -732751,8 +731896,6 @@ self: {
       ];
       description = "Interface with Ettus USRP SDRs";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { inherit (pkgs) uhd; };
 
@@ -734471,8 +733614,6 @@ self: {
       ];
       description = "Unicode characters names and aliases";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -734558,8 +733699,6 @@ self: {
       ];
       description = "Unicode security mechanisms database";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -736318,7 +735457,6 @@ self: {
       ];
       description = "A domain-specific type system for dimensional analysis";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -736369,7 +735507,6 @@ self: {
       ];
       description = "Definitions for use with the units package";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -742022,9 +741159,7 @@ self: {
       ];
       description = "Tweak .cabal files";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
       maintainers = [ lib.maintainers.berberman ];
-      broken = true;
     }
   ) { };
 
@@ -749058,9 +748193,7 @@ self: {
       ];
       description = "Visualize CBN reduction";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "visualize-cbn";
-      broken = true;
     }
   ) { };
 
@@ -749813,7 +748946,6 @@ self: {
       testToolDepends = [ tasty-discover ];
       description = "Switch VPN with web interface for LAN";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "vpn-router";
     }
   ) { };
@@ -750668,7 +749800,6 @@ self: {
       ];
       description = "Generate Haskell types and Vulkan descriptor/pipeline layouts from SPIR-V reflection";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -751331,8 +750462,6 @@ self: {
       ];
       description = "Run wai Applications in IO based monads";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -755233,9 +754362,7 @@ self: {
       testToolDepends = [ hspec-discover ];
       description = "WAI middleware to automatically encrypt and sign cookies";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
       mainProgram = "waicookie-genkey";
-      broken = true;
     }
   ) { };
 
@@ -756607,7 +755734,6 @@ self: {
       ];
       description = "Warp based on QUIC";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -757541,8 +756667,6 @@ self: {
       ];
       description = "Wavefront OBJ loader";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -757705,8 +756829,6 @@ self: {
       ];
       description = "Bidirectional URL path, URL query string and HTTP headers codecs";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -759675,8 +758797,6 @@ self: {
       ];
       description = "A super-simple web server framework";
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
-      hydraPlatforms = lib.platforms.none;
-      broken = true;
     }
   ) { };
 
@@ -779050,7 +778170,6 @@ self: {
       ];
       description = "Alert messages for the Yesod framework";
       license = lib.licenses.bsd3;
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
