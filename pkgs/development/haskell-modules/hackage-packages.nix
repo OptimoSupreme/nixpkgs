@@ -145737,6 +145737,7 @@ self: {
       executableHaskellDepends = [ base ];
       description = "Clash: a functional hardware description language - GHC frontend";
       license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -145904,6 +145905,7 @@ self: {
       ];
       description = "Clash: a functional hardware description language - As a library";
       license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
+      hydraPlatforms = lib.platforms.none;
       mainProgram = "v16-upgrade-primitives";
     }
   ) { };
@@ -145952,6 +145954,7 @@ self: {
       ];
       description = "Hedgehog Generators for clash-lib";
       license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -146166,6 +146169,7 @@ self: {
       ];
       description = "Clash: a functional hardware description language - Prelude library";
       license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -146195,6 +146199,7 @@ self: {
       ];
       description = "Hedgehog Generators for clash-prelude";
       license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -146395,6 +146400,7 @@ self: {
       ];
       description = "Shake rules for building Clash programs";
       license = lib.licenses.mit;
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -146480,6 +146486,7 @@ self: {
       ];
       description = "Typed waveforms for Clash using the Surfer waveform viewer";
       license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -186481,6 +186488,7 @@ self: {
       ];
       description = "Arrow C Data Interface bridge and plan IR for the dataframe ecosystem";
       license = lib.meta.getLicenseFromSpdxId "MIT";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -186721,6 +186729,7 @@ self: {
           ];
           description = "Apache DataFusion backend for the dataframe typed API";
           license = lib.meta.getLicenseFromSpdxId "MIT";
+          hydraPlatforms = lib.platforms.none;
         }
       )
       {
@@ -305033,6 +305042,7 @@ self: {
       ];
       description = "hanalyze command-line interface for the hanalyze toolkit";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
       mainProgram = "hanalyze";
     }
   ) { };
@@ -305110,6 +305120,7 @@ self: {
       ];
       description = "Design-of-experiments layer of hanalyze (DoE / MSA)";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305161,6 +305172,7 @@ self: {
       ];
       description = "Data I/O layer of hanalyze: loaders, cleaning, tidy wrangling";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305206,6 +305218,7 @@ self: {
       ];
       description = "Model layer of hanalyze: regression, ML, survival, causal";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305317,6 +305330,7 @@ self: {
       ];
       description = "Static-plot integration for hanalyze (toPlot / Plottable)";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -305368,6 +305382,7 @@ self: {
       ];
       description = "Vega-Lite visualization and HTML report layer of hanalyze";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -392415,6 +392430,7 @@ self: {
       ];
       description = "MonadIMSOS combines State, Error, Reader and Writer";
       license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -414383,6 +414399,7 @@ self: {
       doHaddock = false;
       description = "Multiline text measurement & layout";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -416404,6 +416421,7 @@ self: {
       ];
       description = "Event sourcing framework and workflow engine";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -416718,6 +416736,7 @@ self: {
       ];
       description = "Operational command-line interface for Keiro deployments";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
       mainProgram = "keiro-ops";
     }
   ) { };
@@ -416793,6 +416812,7 @@ self: {
       ];
       description = "PostgreSQL job-queue (PGMQ) integration for Keiro";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -416834,6 +416854,7 @@ self: {
       ];
       description = "Shared PostgreSQL test fixtures for Keiro test suites";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -479687,7 +479708,6 @@ self: {
       doHaddock = false;
       description = "Boundary-aware delta calculus for Moonlight";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -638200,6 +638220,7 @@ self: {
       doHaddock = false;
       description = "Schema migrations for Shōmei (pg-migrate component, embedded SQL)";
       license = lib.meta.getLicenseFromSpdxId "MIT";
+      hydraPlatforms = lib.platforms.none;
       mainProgram = "shomei-migrate";
     }
   ) { };
@@ -638271,6 +638292,7 @@ self: {
       ];
       description = "PostgreSQL adapters for Shōmei's store/publisher/signing-key ports";
       license = lib.meta.getLicenseFromSpdxId "MIT";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -750646,6 +750668,7 @@ self: {
       ];
       description = "Generate Haskell types and Vulkan descriptor/pipeline layouts from SPIR-V reflection";
       license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 

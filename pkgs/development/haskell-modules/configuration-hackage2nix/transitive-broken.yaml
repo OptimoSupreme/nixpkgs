@@ -458,8 +458,15 @@ dont-distribute-packages:
  - claferIG
  - claferwiki
  - clash
+ - clash-ghc
+ - clash-lib
+ - clash-lib-hedgehog
+ - clash-prelude
+ - clash-prelude-hedgehog
  - clash-protocols
  - clash-protocols-base
+ - clash-shake
+ - clash-shockwaves
  - clash-vexriscv
  - classify-frog
  - classy-effects
@@ -679,6 +686,8 @@ dont-distribute-packages:
  - datafix
  - dataflow
  - dataframe
+ - dataframe-arrow-bridge
+ - dataframe-fusion
  - dataframe-huggingface
  - dataframe-lazy
  - dataframe-parquet
@@ -1316,6 +1325,12 @@ dont-distribute-packages:
  - halma-telegram-bot
  - hamusic
  - hanalyze
+ - hanalyze-cli
+ - hanalyze-design
+ - hanalyze-frame
+ - hanalyze-models
+ - hanalyze-plot
+ - hanalyze-viz
  - hans-pcap
  - happlets-lib-gtk
  - HAppS-Data
@@ -1821,6 +1836,7 @@ dont-distribute-packages:
  - importify
  - imprevu-happstack
  - improve
+ - imsos-monad
  - INblobs
  - inch
  - incremental-computing
@@ -1957,6 +1973,7 @@ dont-distribute-packages:
  - kansas-lava-shake
  - karakuri
  - katip-rollbar
+ - kb-text-layout
  - keelung
  - keera-hails-mvc-environment-gtk
  - keera-hails-mvc-model-lightmodel
@@ -1978,9 +1995,13 @@ dont-distribute-packages:
  - keid-geometry
  - keid-resource-gltf
  - keid-sound-openal
+ - keiro
  - keiro-core
  - keiro-dsl
  - keiro-migrations
+ - keiro-ops
+ - keiro-pgmq
+ - keiro-test-support
  - kerry
  - kevin
  - key-vault
@@ -2333,7 +2354,6 @@ dont-distribute-packages:
  - monte-carlo
  - moo
  - moo-nad
- - moonlight-delta
  - morley
  - morley-client
  - morley-prelude
@@ -3231,6 +3251,8 @@ dont-distribute-packages:
  - shikumi-trace
  - shikumi-trace-otel
  - shine-varying
+ - shomei-migrations
+ - shomei-postgres
  - short-vec
  - short-vec-lens
  - ShortestPathProblems
@@ -3763,6 +3785,7 @@ dont-distribute-packages:
  - vorbiscomment
  - vpn-router
  - vty-ui-extras
+ - vulkan-utils-spirv
  - waargonaut
  - wahsp
  - wai-devel
