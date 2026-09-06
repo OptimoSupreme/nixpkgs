@@ -321571,7 +321571,7 @@ self: {
     }
   ) { inherit (pkgs) aspell; };
 
-  hasql_1_6_4_4 = callPackage (
+  hasql_1_9_3_1 = callPackage (
     {
       mkDerivation,
       aeson,
@@ -321579,14 +321579,17 @@ self: {
       base,
       bytestring,
       bytestring-strict-builder,
+      containers,
       contravariant,
       contravariant-extras,
       criterion,
       dlist,
       hashable,
       hashtables,
+      hspec,
+      hspec-discover,
+      iproute,
       mtl,
-      network-ip,
       postgresql-binary,
       postgresql-libpq,
       profunctors,
@@ -321596,33 +321599,35 @@ self: {
       tasty,
       tasty-hunit,
       tasty-quickcheck,
+      testcontainers-postgresql,
       text,
       text-builder,
       time,
       transformers,
       uuid,
       vector,
+      witherable,
     }:
     mkDerivation {
       pname = "hasql";
-      version = "1.6.4.4";
-      sha256 = "1mwr9v5q5wvf1bk4lc7pdyyqf26snw23mxsz0j4mnrk7ybk6daad";
+      version = "1.9.3.1";
+      sha256 = "1v8zj0qcq15cp8d70r24paj2iyagxyhc0svj28g6az2irslwx8dw";
       libraryHaskellDepends = [
         aeson
         attoparsec
         base
         bytestring
         bytestring-strict-builder
+        containers
         contravariant
         dlist
         hashable
         hashtables
+        iproute
         mtl
-        network-ip
         postgresql-binary
         postgresql-libpq
         profunctors
-        rerebase
         scientific
         text
         text-builder
@@ -321630,21 +321635,25 @@ self: {
         transformers
         uuid
         vector
+        witherable
       ];
       testHaskellDepends = [
         contravariant-extras
+        hspec
         quickcheck-instances
         rerebase
         tasty
         tasty-hunit
         tasty-quickcheck
+        testcontainers-postgresql
       ];
+      testToolDepends = [ hspec-discover ];
       benchmarkHaskellDepends = [
         criterion
         rerebase
       ];
       doHaddock = false;
-      description = "An efficient PostgreSQL driver with a flexible mapping API";
+      description = "Fast PostgreSQL driver with a flexible mapping API";
       license = lib.meta.getLicenseFromSpdxId "MIT";
       hydraPlatforms = lib.platforms.none;
     }
@@ -322067,7 +322076,7 @@ self: {
     }
   ) { };
 
-  hasql-dynamic-statements_0_3_1_5 = callPackage (
+  hasql-dynamic-statements_0_3_1_8 = callPackage (
     {
       mkDerivation,
       base,
@@ -322076,17 +322085,14 @@ self: {
       hasql,
       hasql-implicits,
       ptr,
-      QuickCheck,
-      quickcheck-instances,
       rerebase,
       tasty,
       tasty-hunit,
-      tasty-quickcheck,
     }:
     mkDerivation {
       pname = "hasql-dynamic-statements";
-      version = "0.3.1.5";
-      sha256 = "1h7c3r5vw6hndw9pi64609px2gq23g2d4hz5cgdb5ip36d7dck6p";
+      version = "0.3.1.8";
+      sha256 = "0mhz70pwl6wqp93js30zaxpqzsdpkxblbnckk5m7lg8sa6aa6s7q";
       libraryHaskellDepends = [
         base
         bytestring
@@ -322097,15 +322103,12 @@ self: {
       ];
       testHaskellDepends = [
         hasql
-        QuickCheck
-        quickcheck-instances
         rerebase
         tasty
         tasty-hunit
-        tasty-quickcheck
       ];
       description = "Toolkit for constructing Hasql statements dynamically";
-      license = lib.licenses.mit;
+      license = lib.meta.getLicenseFromSpdxId "MIT";
       hydraPlatforms = lib.platforms.none;
     }
   ) { };
@@ -322355,7 +322358,7 @@ self: {
     }
   ) { };
 
-  hasql-implicits_0_1_1_3 = callPackage (
+  hasql-implicits_0_2_0_1 = callPackage (
     {
       mkDerivation,
       aeson,
@@ -322363,7 +322366,7 @@ self: {
       bytestring,
       containers,
       hasql,
-      network-ip,
+      iproute,
       scientific,
       text,
       time,
@@ -322372,15 +322375,15 @@ self: {
     }:
     mkDerivation {
       pname = "hasql-implicits";
-      version = "0.1.1.3";
-      sha256 = "1kd77zyn5wshbmrl64csxcgn09h2l20ys7v2232gvcp2lzm93dhi";
+      version = "0.2.0.1";
+      sha256 = "01qkb4fgi0i6h4gsdrfya9sl4flfvjhyilx5awpyay34nqfcs4rh";
       libraryHaskellDepends = [
         aeson
         base
         bytestring
         containers
         hasql
-        network-ip
+        iproute
         scientific
         text
         time
@@ -322660,7 +322663,7 @@ self: {
     }
   ) { };
 
-  hasql-notifications_0_2_2_2 = callPackage (
+  hasql-notifications_0_2_4_0 = callPackage (
     {
       mkDerivation,
       base,
@@ -322674,8 +322677,8 @@ self: {
     }:
     mkDerivation {
       pname = "hasql-notifications";
-      version = "0.2.2.2";
-      sha256 = "1978z8wxx91dp36gqymr8ncl7yvnmy3l2fm1b2v46llhn339zrfv";
+      version = "0.2.4.0";
+      sha256 = "0xnag6j2qkyzii9blbrm3fp6rgcx291ih01v7msfbp0wr3dkg1dj";
       isLibrary = true;
       isExecutable = true;
       libraryHaskellDepends = [
@@ -322860,7 +322863,7 @@ self: {
     }
   ) { };
 
-  hasql-pool_1_0_1 = callPackage (
+  hasql-pool_1_3_0_4 = callPackage (
     {
       mkDerivation,
       async,
@@ -322868,17 +322871,21 @@ self: {
       bytestring,
       hasql,
       hspec,
+      hspec-discover,
       random,
       rerebase,
       stm,
+      testcontainers-postgresql,
       text,
+      text-builder,
       time,
+      tuple,
       uuid,
     }:
     mkDerivation {
       pname = "hasql-pool";
-      version = "1.0.1";
-      sha256 = "1z14fdpw1vjr07xz9mjv04i4implk71l61b1p3b1kl34zgvllg1y";
+      version = "1.3.0.4";
+      sha256 = "1spqdiba90sxsx9cwarxmxfq4d89nkdf76a83hpb3bklmcz9sg0w";
       libraryHaskellDepends = [
         base
         bytestring
@@ -322894,7 +322901,11 @@ self: {
         hspec
         random
         rerebase
+        testcontainers-postgresql
+        text-builder
+        tuple
       ];
+      testToolDepends = [ hspec-discover ];
       description = "Pool of connections for Hasql";
       license = lib.meta.getLicenseFromSpdxId "MIT";
       hydraPlatforms = lib.platforms.none;
@@ -323625,7 +323636,7 @@ self: {
     }
   ) { };
 
-  hasql-transaction_1_1_0_1 = callPackage (
+  hasql-transaction_1_2_1 = callPackage (
     {
       mkDerivation,
       async,
@@ -323633,7 +323644,6 @@ self: {
       bytestring,
       bytestring-tree-builder,
       contravariant,
-      contravariant-extras,
       hasql,
       mtl,
       rerebase,
@@ -323641,26 +323651,24 @@ self: {
     }:
     mkDerivation {
       pname = "hasql-transaction";
-      version = "1.1.0.1";
-      sha256 = "1b59lrr046hs7g01n5lq9g0si2cfc2zhz5r92g31b4c3cr8va3hv";
+      version = "1.2.1";
+      sha256 = "0mvk0g92hmjcv6yjcbm0jlrn8h6raj05lmmsi2jd1l1vqlqgip3l";
       libraryHaskellDepends = [
         base
         bytestring
         bytestring-tree-builder
         contravariant
-        contravariant-extras
         hasql
         mtl
         transformers
       ];
       testHaskellDepends = [
         async
-        contravariant-extras
         hasql
         rerebase
       ];
       description = "Composable abstraction over retryable transactions for Hasql";
-      license = lib.licenses.mit;
+      license = lib.meta.getLicenseFromSpdxId "MIT";
       hydraPlatforms = lib.platforms.none;
     }
   ) { };
@@ -429592,60 +429600,6 @@ self: {
       license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
       hydraPlatforms = lib.platforms.none;
       broken = true;
-    }
-  ) { };
-
-  lawful-conversions_0_1_7 = callPackage (
-    {
-      mkDerivation,
-      base,
-      bytestring,
-      containers,
-      hashable,
-      primitive,
-      profunctors,
-      QuickCheck,
-      quickcheck-instances,
-      rebase,
-      tasty,
-      tasty-quickcheck,
-      text,
-      time,
-      unordered-containers,
-      uuid-types,
-      vector,
-    }:
-    mkDerivation {
-      pname = "lawful-conversions";
-      version = "0.1.7";
-      sha256 = "0ly64ng1lqm1czfcmsdkvnljzbr6z7cxdn6yl2bxbi09826ha1i3";
-      libraryHaskellDepends = [
-        base
-        bytestring
-        containers
-        hashable
-        primitive
-        profunctors
-        QuickCheck
-        text
-        time
-        unordered-containers
-        uuid-types
-        vector
-      ];
-      testHaskellDepends = [
-        bytestring
-        primitive
-        QuickCheck
-        quickcheck-instances
-        rebase
-        tasty
-        tasty-quickcheck
-        text
-      ];
-      description = "Lawful typeclasses for bidirectional conversion between types";
-      license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
@@ -555189,7 +555143,7 @@ self: {
     }
   ) { };
 
-  postgresql-binary_0_13_1_3 = callPackage (
+  postgresql-binary_0_14_2 = callPackage (
     {
       mkDerivation,
       aeson,
@@ -555199,7 +555153,7 @@ self: {
       bytestring-strict-builder,
       containers,
       criterion,
-      network-ip,
+      iproute,
       postgresql-libpq,
       QuickCheck,
       quickcheck-instances,
@@ -555217,8 +555171,8 @@ self: {
     }:
     mkDerivation {
       pname = "postgresql-binary";
-      version = "0.13.1.3";
-      sha256 = "1w71jb34z4810i32i9aa17x7if5ssj25gqvi15k2rf1g2lmwp7ry";
+      version = "0.14.2";
+      sha256 = "08a404sgyvlv8zsxyfbqcifn6y5dvdbp2sicaqh9ahky3yz3xw73";
       libraryHaskellDepends = [
         aeson
         base
@@ -555226,7 +555180,7 @@ self: {
         bytestring
         bytestring-strict-builder
         containers
-        network-ip
+        iproute
         scientific
         text
         time
@@ -555237,7 +555191,7 @@ self: {
       ];
       testHaskellDepends = [
         aeson
-        network-ip
+        iproute
         postgresql-libpq
         QuickCheck
         quickcheck-instances
@@ -704468,45 +704422,6 @@ self: {
     }
   ) { };
 
-  text-builder_0_6_10 = callPackage (
-    {
-      mkDerivation,
-      base,
-      bytestring,
-      criterion,
-      rerebase,
-      tasty,
-      tasty-hunit,
-      tasty-quickcheck,
-      text,
-      text-builder-dev,
-    }:
-    mkDerivation {
-      pname = "text-builder";
-      version = "0.6.10";
-      sha256 = "0laz4mpxq4zxr4zy6q4s0l368f5lyvf3ck7549mfw0m2978i2c86";
-      libraryHaskellDepends = [
-        base
-        bytestring
-        text
-        text-builder-dev
-      ];
-      testHaskellDepends = [
-        rerebase
-        tasty
-        tasty-hunit
-        tasty-quickcheck
-      ];
-      benchmarkHaskellDepends = [
-        criterion
-        rerebase
-      ];
-      description = "Efficient strict text builder";
-      license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
-    }
-  ) { };
-
   text-builder = callPackage (
     {
       mkDerivation,
@@ -704596,65 +704511,6 @@ self: {
       ];
       description = "Internals of \"text-builder\"";
       license = lib.meta.getLicenseFromSpdxId "MIT";
-    }
-  ) { };
-
-  text-builder-dev_0_3_10 = callPackage (
-    {
-      mkDerivation,
-      base,
-      base-compat,
-      bytestring,
-      criterion,
-      deferred-folds,
-      isomorphism-class,
-      lawful-conversions,
-      QuickCheck,
-      quickcheck-classes,
-      quickcheck-instances,
-      rerebase,
-      split,
-      tasty,
-      tasty-hunit,
-      tasty-quickcheck,
-      text,
-      time,
-      transformers,
-    }:
-    mkDerivation {
-      pname = "text-builder-dev";
-      version = "0.3.10";
-      sha256 = "0m4lsbx0vkad0jx8lvdj69k7nlmhqc2sxayq8c657c202sbwngs3";
-      libraryHaskellDepends = [
-        base
-        bytestring
-        deferred-folds
-        isomorphism-class
-        lawful-conversions
-        QuickCheck
-        quickcheck-instances
-        split
-        text
-        time
-        transformers
-      ];
-      testHaskellDepends = [
-        base-compat
-        lawful-conversions
-        quickcheck-classes
-        quickcheck-instances
-        rerebase
-        tasty
-        tasty-hunit
-        tasty-quickcheck
-      ];
-      benchmarkHaskellDepends = [
-        criterion
-        rerebase
-      ];
-      description = "Edge of developments for \"text-builder\"";
-      license = lib.meta.getLicenseFromSpdxId "MIT";
-      hydraPlatforms = lib.platforms.none;
     }
   ) { };
 
