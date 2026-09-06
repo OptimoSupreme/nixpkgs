@@ -104,6 +104,37 @@ with haskellLib;
   ormolu = doDistribute self.ormolu_0_9_0_0;
   fourmolu = doDistribute self.fourmolu_0_20_1_0;
 
+  inherit
+    (
+      let
+        hls_overlay = lself: lsuper: {
+          Cabal-syntax = lself.Cabal-syntax_3_16_1_0;
+          Cabal = lself.Cabal_3_16_1_0;
+          cabal-install = lself.cabal-install_3_16_1_0;
+          # hlint does not support GHC 3.14, yet:
+          # https://github.com/ndmitchell/hlint/issues/1672
+          apply-refact = null;
+          hlint = null;
+          refact = null;
+          # stylish-haskell does not support GHC 9.14, yet:
+          # https://github.com/haskell/haskell-language-server/blob/5ce2a847d255ce6f420da49771711a89eee78541/haskell-language-server.cabal#L1544-L1546
+          stylish-haskell = null;
+        };
+      in
+      lib.mapAttrs (_: pkg: doDistribute (pkg.overrideScope hls_overlay)) {
+        ghcide = super.ghcide;
+        haskell-language-server = lib.pipe super.haskell-language-server [
+          (disableCabalFlag "hlint")
+          (disableCabalFlag "stylishHaskell")
+        ];
+        hls-plugin-api = super.hls-plugin-api;
+      }
+    )
+    ghcide
+    haskell-language-server
+    hls-plugin-api
+    ;
+
   #
   # Jailbreaks
   #
@@ -141,6 +172,14 @@ with haskellLib;
   blaze-markup = doJailbreak super.blaze-markup;
   # https://github.com/jaspervdj/blaze-html/issues/151
   blaze-html = doJailbreak super.blaze-html;
+
+  # 2026-09-05: base <4.22
+  # https://github.com/mitchellwrosen/tasty-hspec/pull/38
+  tasty-hspec = doJailbreak super.tasty-hspec;
+
+  # 2026-09-05: containers <0.8
+  # https://github.com/obsidiansystems/dependent-map/issues/59
+  dependent-map = doJailbreak super.dependent-map;
 
   #
   # Test suite issues
