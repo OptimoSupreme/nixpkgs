@@ -6708,11 +6708,6 @@ with pkgs;
     graphviz = graphviz-nox;
   };
 
-  webkitgtk_6_0 = callPackage ../development/libraries/webkitgtk {
-    harfbuzz = harfbuzzFull;
-    inherit (gst_all_1) gst-plugins-base gst-plugins-bad;
-  };
-
   webkitgtk_4_1 = webkitgtk_6_0.override {
     gtk4 = gtk3;
   };
@@ -8434,15 +8429,7 @@ with pkgs;
     withGtk3 = false;
     withGtk4 = true;
   };
-  evolution = callPackage ../applications/networking/mailreaders/evolution/evolution { };
-  evolutionWithPlugins =
-    callPackage ../applications/networking/mailreaders/evolution/evolution/wrapper.nix
-      {
-        plugins = [
-          evolution
-          evolution-ews
-        ];
-      };
+  evolutionWithPlugins = callPackage ../by-name/ev/evolution/with-plugins.nix { };
 
   firewalld-gui = firewalld.override { withGui = true; };
 
@@ -10618,14 +10605,6 @@ with pkgs;
   sourceAndTags = callPackage ../misc/source-and-tags {
     hasktags = haskellPackages.hasktags;
   };
-
-  inherit (callPackage ../applications/networking/cluster/terraform { })
-    mkTerraform
-    terraform_1
-    terraform_plugins_test
-    ;
-
-  terraform = terraform_1;
 
   terraform-providers = recurseIntoAttrs (
     callPackage ../applications/networking/cluster/terraform-providers { }
