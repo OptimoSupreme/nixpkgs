@@ -281,6 +281,11 @@ in
       pkgs.gdm # For polkit rules
     ];
 
+    # gnome-control-center only offers "Fingerprint Login" in the Users panel
+    # when it can read GDM's org.gnome.login-screen schema, which nothing else
+    # puts on the session's XDG_DATA_DIRS.
+    environment.sessionVariables.XDG_DATA_DIRS = [ (pkgs.glib.getSchemaDataDirPath gdm) ];
+
     # We dont use the upstream gdm service
     # it has to be disabled since the gdm package has it
     # https://github.com/NixOS/nixpkgs/issues/108672
